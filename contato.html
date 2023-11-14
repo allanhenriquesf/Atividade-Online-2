@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+        crossorigin="anonymous">
+    <title>Viaje Mais - Contato</title>
+</head>
+
+<body>
+    <header>
+        <h1>Viaje Mais - Contato</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destino1.html">Suiça</a></li>
+            <li><a href="destino2.html">Maldivas</a></li>
+            <li><a href="destino3.html">Japão</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="topo">Contato</h2>
+        <p>Adoraríamos saber a sua opinião! Por favor, preencha o formulário abaixo e entraremos em contato o mais breve
+            possível.</p>
+        <form method="post" action="mailto: allanhique@gmail.com">
+
+            <div class="row">
+                <div class="six columns">
+                    <label for="name1">Nome:</label>
+                    <input class="u-full-width" type="text" placeholder="Escreva seu nome" id="name1" required>
+                </div>
+                <div class="six columns">
+                    <label for="name2">Sobrenome</label>
+                    <input class="u-full-width" type="text" placeholder="Digite seu sobrenome" id="name2">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="six columns">
+                    <label for="idade">Idade:</label>
+                    <input class="u-full-width" type="number" id="idade" placeholder="Digite a sua idade">
+                </div>
+                <div class="six columns">
+                    <label for="email">E-mail</label>
+                    <input class="u-full-width" type="email" placeholder="Digite seu E-mail" id="email">
+                </div>
+            </div>
+
+            <label for="tabela">Avalie o nosso site:</label>
+            <table id="tabela">
+                <tr>
+                    <th class="u-full-width"></th>
+                    <th>Bom</th>
+                    <th>Mediano</th>
+                    <th>Ruim</th>
+                </tr>
+                <tr>
+                    <td class="u-full-width td-center">As informaçoes foram uteis?</td>
+                   
+                    <td>
+                        <input type="radio" value="none" name="informacao" />
+                    </td>
+                    <td>
+                        <input type="radio" value="none" name="informacao" />
+                    </td>
+                    <td>
+                        <input type="radio" value="none" name="informacao" />
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="u-full-width td-center">O Blog é de fácil navegação?</td>
+    
+                    <td>
+                        <input type="radio" value="none" name="navegacao" />
+                    </td>
+                    <td>
+                        <input type="radio" value="none" name="navegacao" />
+                    </td>
+                    <td>
+                        <input type="radio" value="none" name="navegacao" />
+                    </td>
+                </tr>
+            </table>
+
+            <label for="text">Comentário</label>
+            <textarea class="u-full-width" id="text" placeholder="Deixe seu comentário"></textarea>
+
+            <label>
+                <input type="checkbox" id="receber">
+                <span class="label-body" for="receber">Enviar uma cópia de pesquisa para meu email</span>
+            </label>
+
+            <input class="button-primary" type="submit" value="Enviar">
+            <input class="button" type="reset" value="redefinir">
+
+        </form>
+
+        <p class="voltar"><a href="#topo">Voltar ao Topo</a></p>
+    </main>
+    <footer>
+        <p>Viaje Mais - Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
